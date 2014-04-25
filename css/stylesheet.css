@@ -4,10 +4,6 @@ body {
 }
 
 /* == Bootstrap Related == */
-.navbar {
-	margin-bottom: 0px;
-}
-
 /* Carousel */
 .carousel {
 	height: 400px;
@@ -37,7 +33,7 @@ body {
 }
 
 #csl-item1 {
-    background:url(http://trophiesunlimited.net/wp-content/uploads/gold-medals1.jpg); 
+    background:url(/imgs/medals_01.jpg); 
     background-repeat: no-repeat;   
-    background-position: bottom center; 
+    background-position: top center; 
 }
