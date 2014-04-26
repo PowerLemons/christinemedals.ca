@@ -24,6 +24,8 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href="/css/stylesheet.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+	<link rel="stylesheet" href="/css/bootstrap-image-gallery.min.css">
 	
 </head>
 
@@ -64,7 +66,54 @@
 
 <div style="background-color: #333333;">
 	<div class="container">
-		<div style="padding-bottom: 200px; padding-top: 200px;">
+		<div style="padding-bottom: 50px; padding-top: 10px;">
+			<h2 class="text-center">Click a photo to view it.</h2>
+			<hr>
+			<br/>
+			<div id="blueimp-gallery" class="blueimp-gallery">
+				<!-- The container for the modal slides -->
+				<div class="slides"></div>
+				<!-- Controls for the borderless lightbox -->
+				<h3 class="title"></h3>
+				<a class="prev">‹</a>
+				<a class="next">›</a>
+				<a class="close">×</a>
+				<a class="play-pause"></a>
+				<ol class="indicator"></ol>
+				<!-- The modal dialog, which will be used to wrap the lightbox content -->
+				<div class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" style="color: black;"></h4>
+							</div>
+							<div class="modal-body next"></div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default pull-left prev">
+									<i class="glyphicon glyphicon-chevron-left"></i>
+									Previous
+								</button>
+								<button type="button" class="btn btn-primary next">
+									Next
+									<i class="glyphicon glyphicon-chevron-right"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="links">
+				<a href="../imgs/medals_04.png" title="Pin-on." data-gallery>
+					<img src="../imgs/medals_04.png" alt="Pin-on.">
+				</a>
+				<a href="../imgs/medals_02.png" title="A Medal." data-gallery>
+					<img src="../imgs/medals_02.png" alt="A Medal.">
+				</a>
+				<a href="../imgs/medals_03.png" title="Another Medal." data-gallery>
+					<img src="../imgs/medals_03.png" alt="Another Medal.">
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -109,6 +158,10 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- Bluimp Gallery -->
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="/js/bootstrap-image-gallery.min.js"></script>
 
 </body>
 </html>
