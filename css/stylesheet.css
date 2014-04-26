@@ -3,11 +3,18 @@ body {
 	padding-top: 45px;
 }
 
+p, h1, h2, h3, h4, h5 {
+	color: white;
+}
+
+a {
+	color: #FFCC00;
+}
+
 /* == Bootstrap Related == */
 /* Carousel */
 .carousel {
 	height: 400px;
-	margin-bottom: 10px;
 }
 .carousel-caption {
 	z-index: 10;
@@ -34,6 +41,12 @@ body {
 
 #csl-item1 {
     background:url(/imgs/medals_01.jpg); 
+    background-repeat: no-repeat;   
+    background-position: top center; 
+}
+
+#csl-item2 {
+    background:url(/imgs/medals_05.jpg); 
     background-repeat: no-repeat;   
     background-position: top center; 
 }
