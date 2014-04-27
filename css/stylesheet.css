@@ -1,6 +1,6 @@
 body {
 	background-color: #1F1F21;
-	padding-top: 45px;
+	padding-top: 46px;
 }
 
 p, h1, h2, h3, h4, h5 {
@@ -9,6 +9,21 @@ p, h1, h2, h3, h4, h5 {
 
 a {
 	color: #FFCC00;
+}
+		
+.circle {
+    width: 200px;
+    height: 200px;
+	border-color: black;
+	border-width: 5px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #FFF;
+}
+
+.circle-center {
+	padding-top: 60px;
 }
 
 /* == Bootstrap Related == */
