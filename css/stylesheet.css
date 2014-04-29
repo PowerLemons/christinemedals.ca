@@ -10,6 +10,10 @@ p, h1, h2, h3, h4, h5 {
 a {
 	color: #FFCC00;
 }
+
+a:hover {
+	color: #E0B400;
+}
 		
 .circle {
     width: 200px;
