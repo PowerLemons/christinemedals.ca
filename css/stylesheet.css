@@ -30,6 +30,10 @@ a:hover {
 	padding-top: 60px;
 }
 
+.table {
+	background-color: white;
+}
+
 /* == Bootstrap Related == */
 /* Carousel */
 .carousel {
